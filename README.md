@@ -1,0 +1,1 @@
+Interactive rating Component main challenge from Frontend Mentor. This is my first javascript challenge. I'm really struggling with the logic, so any tips on how to improve logic is very welcome. Also, thanks to my @babouxxxx for helping me with this challenge.

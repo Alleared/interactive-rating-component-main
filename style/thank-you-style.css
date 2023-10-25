@@ -1,0 +1,39 @@
+
+.thank-you-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you-image {
+  margin: 1rem 0;
+}
+  
+h3 {
+  font-size: 1.5rem;
+}
+
+.feedback-stat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--DARK-BLUE);
+  color: var(--ORANGE);
+  margin: 2rem auto;
+  width: 60%;
+  height: 30px;
+}
+
+.thank-you-tittle-container {
+  text-align: center;
+}
+
+.thank-you-tittle-container h3 {
+  margin: 0 0 1rem;
+}
+
+.thank-you-tittle-container p {
+  line-height: 1.5rem;
+  color: var(--LIGHT-GRAY);
+}

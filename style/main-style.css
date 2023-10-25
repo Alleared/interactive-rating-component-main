@@ -1,0 +1,127 @@
+/* GOOGLE FONT IMPORT */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&family=Overpass&display=swap');
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+    /* =========== (COLORS) =========== */
+
+    /* PRIMARY */
+    --ORANGE: hsl(25, 97%, 53%);
+
+
+    /* NEUTRAL */
+    --WHITE: hsl(0, 0%, 100%);
+    --LIGHT-GRAY: hsl(217, 12%, 63%);
+    --MEDIUM-GRAY: hsl(216, 12%, 54%);
+    --DARK-BLUE: hsl(213, 19%, 18%);
+    --VERY-DARK-BLUE: hsl(216, 12%, 8%);
+}
+
+
+body {
+    background-color: black;
+    color: var(--WHITE);
+    font: 1rem 'Overpass';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+.star-div {
+    background-color: var(--DARK-BLUE);
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 3rem;
+    padding: 1rem;
+    margin: 0 0 2rem;
+    
+}
+
+article {
+    background-color: var(--VERY-DARK-BLUE);
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 30px;
+    margin: 2rem 0;
+}
+
+.title-container p {
+    line-height: 1.5rem;
+    color: var(--LIGHT-GRAY);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.btn {
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    border: none;
+    /* margin: 1rem .6rem; */
+    background-color: var(--DARK-BLUE);
+    color: var(--LIGHT-GRAY);
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: var(--ORANGE);
+    color: var(--WHITE);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.submit-btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn-div a {
+    width: 100%;
+}
+
+
+.submit-btn {
+    background-color:hsl(25, 97%, 53%);
+    font: bold 1rem 'Overpass';
+    color: var(--WHITE);
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    letter-spacing: 5px;
+
+}
+
+.submit-btn:hover, .submit-btn:focus {
+    background-color: var(--WHITE);
+    color: var(--ORANGE);
+    cursor: pointer;
+}
+
+.selected-btn {
+    background-color: var(--MEDIUM-GRAY);
+    color: var(--WHITE);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
